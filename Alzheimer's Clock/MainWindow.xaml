@@ -1,4 +1,4 @@
-﻿<Window x:Class="Alzheimer_s_Clock.MainWindow"
+﻿<Window x:Class="Alzheimers_Clock.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Alzhiemer's Clock" Height="350" Width="525" ResizeMode="CanMinimize" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None" Background="Black" Foreground="White">

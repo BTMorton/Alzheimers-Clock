@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Alzheimer_s_Clock
+namespace Alzheimers_Clock
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

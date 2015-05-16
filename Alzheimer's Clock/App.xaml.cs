@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Alzheimer_s_Clock
+namespace Alzheimers_Clock
 {
     /// <summary>
     /// Interaction logic for App.xaml
