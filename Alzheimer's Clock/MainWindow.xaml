@@ -1,8 +1,47 @@
 ﻿<Window x:Class="Alzheimer_s_Clock.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Alzhiemer's Clock" Height="350" Width="525" ResizeMode="CanMinimize" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None" Background="Black" Foreground="White">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Viewbox x:Name="vbx_reminder" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5">
+            <Label x:Name="lbl_reminder" Content="Reminder Area" Foreground="White"/>
+        </Viewbox>
+
+        <Viewbox x:Name="vbx_date" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5">
+            <Label x:Name="lbl_date" Content="Saturday 16th May" Foreground="White" Padding="5,2"/>
+        </Viewbox>
+
+        <Viewbox x:Name="vbx_time" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3">
+            <Label x:Name="lbl_time" Content="12:30pm" Foreground="White"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5">
+            <Label x:Name="lbl_tomorrow" Content="Tomorrow - Reminder" Foreground="White"/>
+        </Viewbox>
+
+        <Viewbox x:Name="vbx_btn_assist1" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label x:Name="lbl_btn_assist1" Content="Button 1" Foreground="White"/>
+        </Viewbox>
+        <Viewbox x:Name="vbx_btn_assist2" Grid.Row="4" Grid.Column="2">
+            <Label x:Name="lbl_btn_assist2" Content="Button 2" Foreground="White"/>
+        </Viewbox>
+        <Viewbox x:Name="vbx_btn_assist3" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2">
+            <Label x:Name="lbl_btn_assist3" Content="Button 3" Foreground="White"/>
+        </Viewbox>
     </Grid>
 </Window>
