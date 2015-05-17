@@ -35,13 +35,13 @@
         </Viewbox>
 
         <Viewbox x:Name="vbx_btn_assist1" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
-            <Label x:Name="lbl_btn_assist1" Content="Button 1" Foreground="White"/>
+            <Button x:Name="btn_assist1" Content="Button 1" Foreground="White" BorderThickness="0" Background="#00000000" BorderBrush="#00000000" HorizontalContentAlignment="Center" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"/>
         </Viewbox>
         <Viewbox x:Name="vbx_btn_assist2" Grid.Row="4" Grid.Column="2">
-            <Label x:Name="lbl_btn_assist2" Content="Button 2" Foreground="White"/>
+            <Button x:Name="btn_assist2" Content="Button 2" Foreground="White" BorderThickness="0" Background="#00000000" BorderBrush="#00000000" HorizontalContentAlignment="Center" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"/>
         </Viewbox>
         <Viewbox x:Name="vbx_btn_assist3" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2">
-            <Label x:Name="lbl_btn_assist3" Content="Button 3" Foreground="White"/>
+            <Button x:Name="btn_assist3" Content="Button 3" Foreground="White" BorderThickness="0" Background="#00000000" BorderBrush="#00000000" HorizontalContentAlignment="Center" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"/>
         </Viewbox>
     </Grid>
 </Window>

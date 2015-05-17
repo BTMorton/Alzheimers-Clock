@@ -25,6 +25,8 @@ namespace Alzheimers_Clock {
         public MainWindow() {
             InitializeComponent();
 
+            updateButtons();
+
             updateDate();
             updateTime();
 
@@ -50,6 +52,10 @@ namespace Alzheimers_Clock {
         private void clockTimer_Tick(object sender, EventArgs e) {
             if (lastTime != new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, DateTime.Now.Hour, DateTime.Now.Minute, 0)) updateTime();
             if (lastDay != new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0)) updateDate();
+        }
+
+        private void updateButtons() {
+
         }
     }
 }
